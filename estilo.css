@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(154.76deg, #628E75 3%, #1A4855 84.12%) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cabecalho {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.midias {
+    display: flex;
+    gap: 25px;
+}
+
+/* main */
+
+main {
+    width: 100%;
+}
+
+.conteudo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 70px;
+    flex-wrap: wrap;
+  
+}
+
+.content {
+    width: 50%;
+}
+
+.hayao h2 {
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -18px;
+}
+
+.viagem h3 {
+    margin-top: 20px;
+    color: white;
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 100%;
+    width: 405px;
+}
+
+.chihiro h4 {
+    font-family: "arial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: white;
+    margin-top: 30px;
+}
+
+.img-chihiro img {
+    width: 500px;
+    margin-top:-50px;
+}
+
+.btn-botao {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   transform: skewX(-25deg);
+   margin-top: -130px;
+   
+}
+
+.botao {
+   cursor: pointer;
+   width: 235px;
+   height: 50px; 
+   background: #658E76;
+   border: none;
+   color: white;
+   background-image: url('img/play.png');
+   background-position: 15px 15px;
+   background-repeat: no-repeat;
+   font-family: ARIAL;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+
+   .botao2 {
+    cursor: pointer;
+    width: 235px;
+    height: 50px; 
+    padding-top: -5px;
+    font-family: ARIAL;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    color: white;
+    background: #475f58;
+    border: 2px solid #658E76;
+
+    }
+
+    @media(max-width: 1249px) {
+        .btn-botao {
+            margin-top: 3px;
+        }
+
+        .btn-botao {
+            padding-bottom: 80px;
+        }
+        
+    }
+
+       
+
+    @media(max-width: 475px) {
+        .botao2 {
+            display: none;
+        }
+        }
+
+        @media(max-width: 460px) {
+            .botao2 {
+                display: none;
+            }
+            
+            .cabecalho {
+                margin-left: 80px;
+            }
+        }
+
+        @media(max-width: 350px) {
+            
+            .cabecalho {
+                margin-left: 120px;
+            }
+
+            .viagem h3 {
+                font-size: 35px;
+            }
+            
+          }
+    
+    
+
+   
+
+   
+
+
+
+
+
